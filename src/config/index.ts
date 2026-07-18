@@ -14,6 +14,7 @@ export const env = {
   port: process.env.PORT,
   nodeEnv: process.env.NODE_ENV,
   databaseUrl: process.env.DATABASE_URL,
+  directUrl: process.env.DIRECT_URL,
   jwtSecret: process.env.JWT_SECRET,
   jwtExpiresIn: process.env.JWT_EXPIRES_IN,
   stripeSecretKey: process.env.STRIPE_SECRET_KEY,
