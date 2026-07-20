@@ -18,9 +18,7 @@ export const env = {
   jwtSecret: process.env.JWT_SECRET,
   jwtExpiresIn: process.env.JWT_EXPIRES_IN,
   stripeSecretKey: process.env.STRIPE_SECRET_KEY,
-
   stripeWebhookSecret: process.env.STRIPE_WEBHOOK_SECRET,
-
   clientSuccessUrl: process.env.CLIENT_SUCCESS_URL,
   clientCancelUrl: process.env.CLIENT_CANCEL_URL,
   adminEmail: process.env.ADMIN_EMAIL,
