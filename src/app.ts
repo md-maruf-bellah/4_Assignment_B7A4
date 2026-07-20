@@ -40,14 +40,9 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 app.get("/health", (req: Request, res: Response) => {
-  res.status(200).json({
-    success: true,
-    message: "OK",
-    data: {
-      admin: "admin@rentnest.com",
-      password: "admin123",
-    },
-  });
+  res
+    .status(200)
+    .json({ success: true, message: "OK", data: { uptime: process.uptime() } });
 });
 
 // Routes
