@@ -109,6 +109,8 @@ Validation includes:
 
 ### Error Handling
 
+
+
 A centralized global error handler is implemented.
 
 All errors return a consistent response format.
