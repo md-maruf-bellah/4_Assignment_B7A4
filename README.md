@@ -94,6 +94,8 @@ Admin can:
 
 ### Validation
 
+
+
 Every request is validated using Zod before reaching the controller.
 
 Validation includes:
