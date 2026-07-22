@@ -1,4 +1,13 @@
+# ভাইয়া, ইউজার **Active** এবং **Banned** করার জন্য আমার এই URL-টা দয়া করে যোগ করে নিবেন।
+
+patch={{baseUrl}}/admin/users/{{userid}}
+ধন্যবাদ।
+
+
+
 # RentNest Backend API
+
+
 
 ## Project Overview
 
